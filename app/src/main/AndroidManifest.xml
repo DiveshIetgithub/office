@@ -16,7 +16,7 @@
         android:theme="@style/Theme.CalApplication"
         tools:targetApi="31">
         <activity
-            android:name=".OtpActivity"
+            android:name=".activity.OtpActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,11 +27,11 @@
         <activity
             android:name=".activity.TestActivity"
             android:exported="true">
-            <intent-filter>
+<!--            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>-->
         </activity>
         <activity
             android:name=".activity.UserActivity"
